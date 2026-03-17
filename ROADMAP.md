@@ -8,7 +8,7 @@ Build a profile strong enough for embedded software jobs abroad by improving:
 - Embedded C fundamentals
 - Debugging and hardware interaction skills
 - RTOS knowledge
-- Embedded Linux basics
+- Linux basics and Embedded Linux
 - English for engineering communication
 - Interview readiness
 - Public learning notes and project documentation
@@ -70,26 +70,42 @@ Practice:
 - Compare polling vs interrupt vs RTOS task models
 - Write notes about synchronization mistakes
 
-### 4. Embedded Linux
+### 4. Linux Basics
 Topics:
-- Linux command line
-- Processes and threads
-- Filesystems and permissions
-- Cross-compilation
-- Make and CMake basics
+- Shell navigation
+- Files, directories, and permissions
+- Users and groups
+- Processes and jobs
+- Pipes and redirection
+- Environment variables
+- Text tools: `grep`, `sed`, `awk`
+- SSH and SCP
+- Package managers
+- Basic networking commands
+
+Practice:
+- Complete daily shell exercises
+- Write notes about common commands and their options
+- Set up and use a Linux environment regularly
+
+### 5. Embedded Linux
+Topics:
+- Cross-compilation and toolchains
+- Bootloaders overview
+- Kernel basics
+- Device tree
 - Serial communication in Linux
 - Networking basics
-- Boot process overview
-- Device tree basics
-- Buildroot or Yocto introduction
+- Buildroot and Yocto introduction
 - Systemd basics
+- Board bring-up workflow
 
 Practice:
 - Build and run a small userspace C application on Linux
 - Cross-compile for a target board
 - Write notes for serial, GPIO, and networking workflows
 
-### 5. Tools and Engineering Workflow
+### 6. Tools and Engineering Workflow
 Topics:
 - Git and GitHub
 - Build systems
@@ -104,7 +120,7 @@ Practice:
 - Add README files for each topic
 - Summarize what was learned after each study block
 
-### 6. English for Engineering
+### 7. English for Engineering
 Target:
 - Reach practical B1+ or B2 level for work communication
 
@@ -121,7 +137,7 @@ Practice:
 - Summarize one technical topic per week in English
 - Practice answering interview questions aloud
 
-### 7. Career and Relocation Preparation
+### 8. Career and Relocation Preparation
 Topics:
 - CV and LinkedIn preparation
 - Relocation-friendly countries and companies
@@ -144,7 +160,8 @@ Practice:
 - `embedded-c/` - C fundamentals and low-level programming notes
 - `mcu/` - peripherals, hardware, and board bring-up notes
 - `rtos/` - RTOS concepts and examples
-- `embedded-linux/` - Linux learning notes and examples
+- `linux-basics/` - foundational Linux command-line and system concepts
+- `embedded-linux/` - cross-compilation, device tree, Buildroot, board bring-up
 - `protocols/` - UART, SPI, I2C, CAN, USB, Ethernet notes
 - `debugging/` - debugging cases, tools, and lessons learned
 - `english/` - technical vocabulary and speaking practice notes
@@ -172,9 +189,9 @@ Practice:
 - Study race conditions and deadlocks
 - Practice speaking about one project in English
 
-### Month 4 - Embedded Linux Basics
-- Learn shell commands, processes, permissions, build tools
-- Cross-compile a simple C project
+### Month 4 - Linux Basics and Embedded Linux
+- Learn shell commands, processes, permissions, and text tools
+- Cross-compile a simple C project for a target board
 - Study serial and networking basics on Linux
 - Start Buildroot or Yocto overview notes
 
